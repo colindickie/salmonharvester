@@ -84,11 +84,14 @@ Module XmlModule
         Dim xmlLog As XmlDocument = New XmlDocument
         Dim ns As New XmlNamespaceManager(xmlLog.NameTable)
 
+
+
         Try
+            'Load current logfile
             xmlLog.Schemas.Add(Nothing, My.Settings.LogPath & GlobalVar.logschema)
             xmlLog.Load(logfile)
         Catch ex As Exception
-
+            'If no logfile exists then create one.
             ns.AddNamespace(String.Empty, "SalmonHarvest")
 
 
