@@ -1,0 +1,28 @@
+**Top Priority**
+
+
+
+**Required**
+
+
+2. allow Chart to view two days together.
+
+
+
+**Nice to haves**
+
+1. Show status of each sensor/acuator on machine tab.  Possibly by writing a new control which higlights when activated i.e. the 'tail gate' label turns red when activated.
+
+
+3. Splash Page with version number.
+
+
+5. Reformat Report Printout
+
+6. Test read function with fewer request bytes.
+
+
+**Notes**
+
+Viknes Laptop 1366x768
+Second Screen 1024x768

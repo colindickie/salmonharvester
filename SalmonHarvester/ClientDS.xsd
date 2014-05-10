@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ClientDS" targetNamespace="http://tempuri.org/ClientDS.xsd" xmlns:mstns="http://tempuri.org/ClientDS.xsd" xmlns="http://tempuri.org/ClientDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="NotPublic" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ClientDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ClientDS" msprop:Generator_UserDSName="ClientDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ClientT" msprop:Generator_TableClassName="ClientTDataTable" msprop:Generator_TableVarName="tableClientT" msprop:Generator_RowChangedName="ClientTRowChanged" msprop:Generator_TablePropName="ClientT" msprop:Generator_RowDeletingName="ClientTRowDeleting" msprop:Generator_RowChangingName="ClientTRowChanging" msprop:Generator_RowEvHandlerName="ClientTRowChangeEventHandler" msprop:Generator_RowDeletedName="ClientTRowDeleted" msprop:Generator_RowClassName="ClientTRow" msprop:Generator_UserTableName="ClientT" msprop:Generator_RowEvArgName="ClientTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ClientID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnClientID" msprop:Generator_ColumnPropNameInRow="ClientID" msprop:Generator_ColumnPropNameInTable="ClientIDColumn" msprop:Generator_UserColumnName="ClientID" type="xs:int" minOccurs="0" />
+              <xs:element name="Client" msprop:Generator_ColumnVarNameInTable="columnClient" msprop:Generator_ColumnPropNameInRow="Client" msprop:Generator_ColumnPropNameInTable="ClientColumn" msprop:Generator_UserColumnName="Client" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SiteT" msprop:Generator_TableClassName="SiteTDataTable" msprop:Generator_TableVarName="tableSiteT" msprop:Generator_RowChangedName="SiteTRowChanged" msprop:Generator_TablePropName="SiteT" msprop:Generator_RowDeletingName="SiteTRowDeleting" msprop:Generator_RowChangingName="SiteTRowChanging" msprop:Generator_RowEvHandlerName="SiteTRowChangeEventHandler" msprop:Generator_RowDeletedName="SiteTRowDeleted" msprop:Generator_RowClassName="SiteTRow" msprop:Generator_UserTableName="SiteT" msprop:Generator_RowEvArgName="SiteTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SiteID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnSiteID" msprop:Generator_ColumnPropNameInRow="SiteID" msprop:Generator_ColumnPropNameInTable="SiteIDColumn" msprop:Generator_UserColumnName="SiteID" type="xs:int" minOccurs="0" />
+              <xs:element name="Site" msprop:Generator_ColumnVarNameInTable="columnSite" msprop:Generator_ColumnPropNameInRow="Site" msprop:Generator_ColumnPropNameInTable="SiteColumn" msprop:Generator_UserColumnName="Site" type="xs:string" minOccurs="0" />
+              <xs:element name="ClientID" msprop:Generator_ColumnVarNameInTable="columnClientID" msprop:Generator_ColumnPropNameInRow="ClientID" msprop:Generator_ColumnPropNameInTable="ClientIDColumn" msprop:Generator_UserColumnName="ClientID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="HarvestT" msprop:Generator_TableClassName="HarvestTDataTable" msprop:Generator_TableVarName="tableHarvestT" msprop:Generator_RowChangedName="HarvestTRowChanged" msprop:Generator_TablePropName="HarvestT" msprop:Generator_RowDeletingName="HarvestTRowDeleting" msprop:Generator_RowChangingName="HarvestTRowChanging" msprop:Generator_RowEvHandlerName="HarvestTRowChangeEventHandler" msprop:Generator_RowDeletedName="HarvestTRowDeleted" msprop:Generator_RowClassName="HarvestTRow" msprop:Generator_UserTableName="HarvestT" msprop:Generator_RowEvArgName="HarvestTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HarvestID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnHarvestID" msprop:Generator_ColumnPropNameInRow="HarvestID" msprop:Generator_ColumnPropNameInTable="HarvestIDColumn" msprop:Generator_UserColumnName="HarvestID" type="xs:int" minOccurs="0" />
+              <xs:element name="ClientID" msprop:Generator_ColumnVarNameInTable="columnClientID" msprop:Generator_ColumnPropNameInRow="ClientID" msprop:Generator_ColumnPropNameInTable="ClientIDColumn" msprop:Generator_UserColumnName="ClientID" type="xs:int" minOccurs="0" />
+              <xs:element name="SiteID" msprop:Generator_ColumnVarNameInTable="columnSiteID" msprop:Generator_ColumnPropNameInRow="SiteID" msprop:Generator_ColumnPropNameInTable="SiteIDColumn" msprop:Generator_UserColumnName="SiteID" type="xs:int" minOccurs="0" />
+              <xs:element name="StartDateTime" msprop:Generator_ColumnVarNameInTable="columnStartDateTime" msprop:Generator_ColumnPropNameInRow="StartDateTime" msprop:Generator_ColumnPropNameInTable="StartDateTimeColumn" msprop:Generator_UserColumnName="StartDateTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="EndDateTime" msprop:Generator_ColumnVarNameInTable="columnEndDateTime" msprop:Generator_ColumnPropNameInRow="EndDateTime" msprop:Generator_ColumnPropNameInTable="EndDateTimeColumn" msprop:Generator_UserColumnName="EndDateTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="AverageWeight" msprop:Generator_ColumnVarNameInTable="columnAverageWeight" msprop:Generator_ColumnPropNameInRow="AverageWeight" msprop:Generator_ColumnPropNameInTable="AverageWeightColumn" msprop:Generator_UserColumnName="AverageWeight" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FishCount" msprop:Generator_ColumnVarNameInTable="columnFishCount" msprop:Generator_ColumnPropNameInRow="FishCount" msprop:Generator_ColumnPropNameInTable="FishCountColumn" msprop:Generator_UserColumnName="FishCount" type="xs:int" minOccurs="0" />
+              <xs:element name="VesselID" msprop:Generator_ColumnVarNameInTable="columnVesselID" msprop:Generator_ColumnPropNameInRow="VesselID" msprop:Generator_ColumnPropNameInTable="VesselIDColumn" msprop:Generator_UserColumnName="VesselID" type="xs:int" minOccurs="0" />
+              <xs:element name="CageNo" msprop:Generator_ColumnVarNameInTable="columnCageNo" msprop:Generator_ColumnPropNameInRow="CageNo" msprop:Generator_ColumnPropNameInTable="CageNoColumn" msprop:Generator_UserColumnName="CageNo" type="xs:string" minOccurs="0" />
+              <xs:element name="StartWeight" msprop:Generator_ColumnVarNameInTable="columnStartWeight" msprop:Generator_ColumnPropNameInRow="StartWeight" msprop:Generator_ColumnPropNameInTable="StartWeightColumn" msprop:Generator_UserColumnName="StartWeight" type="xs:int" minOccurs="0" />
+              <xs:element name="RepComments" msprop:Generator_ColumnVarNameInTable="columnRepComments" msprop:Generator_ColumnPropNameInRow="RepComments" msprop:Generator_ColumnPropNameInTable="RepCommentsColumn" msprop:Generator_UserColumnName="RepComments" type="xs:string" minOccurs="0" />
+              <xs:element name="EndWeight" msprop:Generator_ColumnVarNameInTable="columnEndWeight" msprop:Generator_ColumnPropNameInRow="EndWeight" msprop:Generator_ColumnPropNameInTable="EndWeightColumn" msprop:Generator_UserColumnName="EndWeight" type="xs:int" minOccurs="0" />
+              <xs:element name="ConditionID" msprop:Generator_ColumnVarNameInTable="columnConditionID" msprop:Generator_ColumnPropNameInRow="ConditionID" msprop:Generator_ColumnPropNameInTable="ConditionIDColumn" msprop:Generator_UserColumnName="ConditionID" type="xs:int" minOccurs="0" />
+              <xs:element name="TempWell" msprop:Generator_ColumnVarNameInTable="columnTempWell" msprop:Generator_ColumnPropNameInRow="TempWell" msprop:Generator_ColumnPropNameInTable="TempWellColumn" msprop:Generator_UserColumnName="TempWell" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TempSite" msprop:Generator_ColumnVarNameInTable="columnTempSite" msprop:Generator_ColumnPropNameInRow="TempSite" msprop:Generator_ColumnPropNameInTable="TempSiteColumn" msprop:Generator_UserColumnName="TempSite" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ArrivalDateTime" msprop:Generator_ColumnVarNameInTable="columnArrivalDateTime" msprop:Generator_ColumnPropNameInRow="ArrivalDateTime" msprop:Generator_ColumnPropNameInTable="ArrivalDateTimeColumn" msprop:Generator_UserColumnName="ArrivalDateTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DeliveryDateTime" msprop:Generator_ColumnVarNameInTable="columnDeliveryDateTime" msprop:Generator_ColumnPropNameInRow="DeliveryDateTime" msprop:Generator_ColumnPropNameInTable="DeliveryDateTimeColumn" msprop:Generator_UserColumnName="DeliveryDateTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PortID" msprop:Generator_ColumnVarNameInTable="columnPortID" msprop:Generator_ColumnPropNameInRow="PortID" msprop:Generator_ColumnPropNameInTable="PortIDColumn" msprop:Generator_UserColumnName="PortID" type="xs:int" minOccurs="0" />
+              <xs:element name="SkipperID" msprop:Generator_ColumnVarNameInTable="columnSkipperID" msprop:Generator_ColumnPropNameInRow="SkipperID" msprop:Generator_ColumnPropNameInTable="SkipperIDColumn" msprop:Generator_UserColumnName="SkipperID" type="xs:int" minOccurs="0" />
+              <xs:element name="SkipperComments" msprop:Generator_ColumnVarNameInTable="columnSkipperComments" msprop:Generator_ColumnPropNameInRow="SkipperComments" msprop:Generator_ColumnPropNameInTable="SkipperCommentsColumn" msprop:Generator_UserColumnName="SkipperComments" type="xs:string" minOccurs="0" />
+              <xs:element name="StarveDateTime" msprop:Generator_ColumnVarNameInTable="columnStarveDateTime" msprop:Generator_ColumnPropNameInRow="StarveDateTime" msprop:Generator_ColumnPropNameInTable="StarveDateTimeColumn" msprop:Generator_UserColumnName="StarveDateTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="RepID" msprop:Generator_ColumnVarNameInTable="columnRepID" msprop:Generator_ColumnPropNameInRow="RepID" msprop:Generator_ColumnPropNameInTable="RepIDColumn" msprop:Generator_UserColumnName="RepID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VesselT" msprop:Generator_TableClassName="VesselTDataTable" msprop:Generator_TableVarName="tableVesselT" msprop:Generator_RowChangedName="VesselTRowChanged" msprop:Generator_TablePropName="VesselT" msprop:Generator_RowDeletingName="VesselTRowDeleting" msprop:Generator_RowChangingName="VesselTRowChanging" msprop:Generator_RowEvHandlerName="VesselTRowChangeEventHandler" msprop:Generator_RowDeletedName="VesselTRowDeleted" msprop:Generator_RowClassName="VesselTRow" msprop:Generator_UserTableName="VesselT" msprop:Generator_RowEvArgName="VesselTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VesselID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnVesselID" msprop:Generator_ColumnPropNameInRow="VesselID" msprop:Generator_ColumnPropNameInTable="VesselIDColumn" msprop:Generator_UserColumnName="VesselID" type="xs:int" />
+              <xs:element name="Vessel" msprop:Generator_ColumnVarNameInTable="columnVessel" msprop:Generator_ColumnPropNameInRow="Vessel" msprop:Generator_ColumnPropNameInTable="VesselColumn" msprop:Generator_UserColumnName="Vessel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PortT" msprop:Generator_TableClassName="PortTDataTable" msprop:Generator_TableVarName="tablePortT" msprop:Generator_RowChangedName="PortTRowChanged" msprop:Generator_TablePropName="PortT" msprop:Generator_RowDeletingName="PortTRowDeleting" msprop:Generator_RowChangingName="PortTRowChanging" msprop:Generator_RowEvHandlerName="PortTRowChangeEventHandler" msprop:Generator_RowDeletedName="PortTRowDeleted" msprop:Generator_RowClassName="PortTRow" msprop:Generator_UserTableName="PortT" msprop:Generator_RowEvArgName="PortTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PortID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnPortID" msprop:Generator_ColumnPropNameInRow="PortID" msprop:Generator_ColumnPropNameInTable="PortIDColumn" msprop:Generator_UserColumnName="PortID" type="xs:int" />
+              <xs:element name="Port" msprop:Generator_ColumnVarNameInTable="columnPort" msprop:Generator_ColumnPropNameInRow="Port" msprop:Generator_ColumnPropNameInTable="PortColumn" msprop:Generator_UserColumnName="Port" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SkipperT" msprop:Generator_TableClassName="SkipperTDataTable" msprop:Generator_TableVarName="tableSkipperT" msprop:Generator_RowChangedName="SkipperTRowChanged" msprop:Generator_TablePropName="SkipperT" msprop:Generator_RowDeletingName="SkipperTRowDeleting" msprop:Generator_RowChangingName="SkipperTRowChanging" msprop:Generator_RowEvHandlerName="SkipperTRowChangeEventHandler" msprop:Generator_RowDeletedName="SkipperTRowDeleted" msprop:Generator_RowClassName="SkipperTRow" msprop:Generator_UserTableName="SkipperT" msprop:Generator_RowEvArgName="SkipperTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SkipperID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnSkipperID" msprop:Generator_ColumnPropNameInRow="SkipperID" msprop:Generator_ColumnPropNameInTable="SkipperIDColumn" msprop:Generator_UserColumnName="SkipperID" type="xs:int" />
+              <xs:element name="Skipper" msprop:Generator_ColumnVarNameInTable="columnSkipper" msprop:Generator_ColumnPropNameInRow="Skipper" msprop:Generator_ColumnPropNameInTable="SkipperColumn" msprop:Generator_UserColumnName="Skipper" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RepT" msprop:Generator_TableClassName="RepTDataTable" msprop:Generator_TableVarName="tableRepT" msprop:Generator_RowChangedName="RepTRowChanged" msprop:Generator_TablePropName="RepT" msprop:Generator_RowDeletingName="RepTRowDeleting" msprop:Generator_RowChangingName="RepTRowChanging" msprop:Generator_RowEvHandlerName="RepTRowChangeEventHandler" msprop:Generator_RowDeletedName="RepTRowDeleted" msprop:Generator_RowClassName="RepTRow" msprop:Generator_UserTableName="RepT" msprop:Generator_RowEvArgName="RepTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RepID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnRepID" msprop:Generator_ColumnPropNameInRow="RepID" msprop:Generator_ColumnPropNameInTable="RepIDColumn" msprop:Generator_UserColumnName="RepID" type="xs:int" />
+              <xs:element name="Rep" msprop:Generator_ColumnVarNameInTable="columnRep" msprop:Generator_ColumnPropNameInRow="Rep" msprop:Generator_ColumnPropNameInTable="RepColumn" msprop:Generator_UserColumnName="Rep" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ConditionT" msprop:Generator_TableClassName="ConditionTDataTable" msprop:Generator_TableVarName="tableConditionT" msprop:Generator_RowChangedName="ConditionTRowChanged" msprop:Generator_TablePropName="ConditionT" msprop:Generator_RowDeletingName="ConditionTRowDeleting" msprop:Generator_RowChangingName="ConditionTRowChanging" msprop:Generator_RowEvHandlerName="ConditionTRowChangeEventHandler" msprop:Generator_RowDeletedName="ConditionTRowDeleted" msprop:Generator_RowClassName="ConditionTRow" msprop:Generator_UserTableName="ConditionT" msprop:Generator_RowEvArgName="ConditionTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ConditionID" msprop:Generator_ColumnVarNameInTable="columnConditionID" msprop:Generator_ColumnPropNameInRow="ConditionID" msprop:Generator_ColumnPropNameInTable="ConditionIDColumn" msprop:Generator_UserColumnName="ConditionID" type="xs:int" />
+              <xs:element name="Condition" msprop:Generator_ColumnVarNameInTable="columnCondition" msprop:Generator_ColumnPropNameInRow="Condition" msprop:Generator_ColumnPropNameInTable="ConditionColumn" msprop:Generator_UserColumnName="Condition" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:ClientT" />
+      <xs:field xpath="mstns:ClientID" />
+    </xs:unique>
+    <xs:unique name="SiteT_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:SiteT" />
+      <xs:field xpath="mstns:SiteID" />
+    </xs:unique>
+    <xs:unique name="HarvestT_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:HarvestT" />
+      <xs:field xpath="mstns:HarvestID" />
+    </xs:unique>
+    <xs:unique name="VesselT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:VesselT" />
+      <xs:field xpath="mstns:VesselID" />
+    </xs:unique>
+    <xs:unique name="PortT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PortT" />
+      <xs:field xpath="mstns:PortID" />
+    </xs:unique>
+    <xs:unique name="SkipperT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SkipperT" />
+      <xs:field xpath="mstns:SkipperID" />
+    </xs:unique>
+    <xs:unique name="RepT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:RepT" />
+      <xs:field xpath="mstns:RepID" />
+    </xs:unique>
+    <xs:unique name="ConditionT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ConditionT" />
+      <xs:field xpath="mstns:ConditionID" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="FK_VesselT_HarvestT" msdata:parent="HarvestT" msdata:child="VesselT" msdata:parentkey="VesselID" msdata:childkey="VesselID" msprop:Generator_UserChildTable="VesselT" msprop:Generator_ChildPropName="GetVesselTRows" msprop:Generator_UserRelationName="FK_VesselT_HarvestT" msprop:Generator_RelationVarName="relationFK_VesselT_HarvestT" msprop:Generator_UserParentTable="HarvestT" msprop:Generator_ParentPropName="HarvestTRow" />
+      <msdata:Relationship name="FK_SiteT_ClientT" msdata:parent="SiteT" msdata:child="ClientT" msdata:parentkey="ClientID" msdata:childkey="ClientID" msprop:Generator_UserChildTable="ClientT" msprop:Generator_ChildPropName="GetClientTRows" msprop:Generator_UserRelationName="FK_SiteT_ClientT" msprop:Generator_ParentPropName="SiteTRow" msprop:Generator_RelationVarName="relationFK_SiteT_ClientT" msprop:Generator_UserParentTable="SiteT" />
+      <msdata:Relationship name="HarvestT_PortT" msdata:parent="HarvestT" msdata:child="PortT" msdata:parentkey="PortID" msdata:childkey="PortID" msprop:Generator_UserChildTable="PortT" msprop:Generator_ChildPropName="GetPortTRows" msprop:Generator_UserRelationName="HarvestT_PortT" msprop:Generator_RelationVarName="relationHarvestT_PortT" msprop:Generator_UserParentTable="HarvestT" msprop:Generator_ParentPropName="HarvestTRow" />
+      <msdata:Relationship name="HarvestT_SkipperT" msdata:parent="HarvestT" msdata:child="SkipperT" msdata:parentkey="SkipperID" msdata:childkey="SkipperID" msprop:Generator_UserChildTable="SkipperT" msprop:Generator_ChildPropName="GetSkipperTRows" msprop:Generator_UserRelationName="HarvestT_SkipperT" msprop:Generator_RelationVarName="relationHarvestT_SkipperT" msprop:Generator_UserParentTable="HarvestT" msprop:Generator_ParentPropName="HarvestTRow" />
+      <msdata:Relationship name="HarvestT_RepT" msdata:parent="HarvestT" msdata:child="RepT" msdata:parentkey="RepID" msdata:childkey="RepID" msprop:Generator_UserChildTable="RepT" msprop:Generator_ChildPropName="GetRepTRows" msprop:Generator_UserRelationName="HarvestT_RepT" msprop:Generator_RelationVarName="relationHarvestT_RepT" msprop:Generator_UserParentTable="HarvestT" msprop:Generator_ParentPropName="HarvestTRow" />
+      <msdata:Relationship name="HarvestT_ConditionT" msdata:parent="HarvestT" msdata:child="ConditionT" msdata:parentkey="ConditionID" msdata:childkey="ConditionID" msprop:Generator_UserChildTable="ConditionT" msprop:Generator_ChildPropName="GetConditionTRows" msprop:Generator_UserRelationName="HarvestT_ConditionT" msprop:Generator_RelationVarName="relationHarvestT_ConditionT" msprop:Generator_UserParentTable="HarvestT" msprop:Generator_ParentPropName="HarvestTRow" />
+      <msdata:Relationship name="HarvestT_SiteT" msdata:parent="HarvestT" msdata:child="SiteT" msdata:parentkey="SiteID" msdata:childkey="SiteID" msprop:Generator_UserChildTable="SiteT" msprop:Generator_ChildPropName="GetSiteTRows" msprop:Generator_UserRelationName="HarvestT_SiteT" msprop:Generator_RelationVarName="relationHarvestT_SiteT" msprop:Generator_UserParentTable="HarvestT" msprop:Generator_ParentPropName="HarvestTRow" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

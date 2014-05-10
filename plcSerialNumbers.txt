@@ -1,0 +1,29 @@
+Name		MAC		Node
+Viknes01 - 00;0F;73;03;91;87	49
+Viknes02 - 00;0F;73;03;6A;BF	50
+Viknes03 - 00;0F;73;03;7F;51	51
+Viknes04 - 00;0F;73;03;78;B4	52
+Viknes05 - 00;0F;73;03;91;19	53
+Viknes06 - 00;0F;73;03;91;31	54
+Viknes07 - 00;0F;73;03;79;82	55
+Viknes08 - 00;0F;73;03;79;82	56
+
+IslandSenior01 - 00;0F;73;03;91;1C	49
+IslandSenior02 - 00;0F;73;03;7F;DE	50
+IslandSenior03 - 00;0F;73;03;7F;E7	51
+IslandSenior04 - 00;0F;73;03;78;9D	52
+IslandSenior05 - 00;0F;73;03;7F;E0	53
+IslandSenior06 - 00;0F;73;03;91;24	54
+
+Gripfisk01 - 00;0F;73;03;7F;DC	49
+Gripfisk02 - 00;0F;73;03;82;F3	50
+Gripfisk03 - 00;0F;73;03;C9;9F	51
+Gripfisk04 - 00;0F;73;03;80;3B	52
+Gripfisk05 - 00;0F;73;03;82;F5	53
+Gripfisk06 - 00;0F;73;03;82;AB	54
+Gripfisk07 - 00;0F;73;03;99;16	55
+Gripfisk08 - 00;0F;73;03;C9;98	56
+Gripfisk09 - 00;0F;73;03;C9;AD	57
+Gripfisk10 - 00;0F;73;03;C9;9B	48
+Gripfisk11 - 00;1D;9C;A0;40;77	49
+Gripfisk12 - 00;0F;73;03;C9;A0	50

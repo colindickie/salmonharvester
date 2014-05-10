@@ -1,0 +1,41 @@
+
+OUTPUTS
+O0:1.0	Holddown Cylinder
+O0:1.1	Cheek Plates
+O0:1.2	Hammer
+O0:1.3	Knife
+O0:1.4	Pullback
+O0:1.5	Tailgate
+O0:1.6	Lift
+
+INPUTS
+I1:0.0	Trigger 1
+I1:0.1	Override Button
+I1:0.2	Main Trigger
+I1:0.3	Belly Sensor
+I1:0.4	Stop Button
+
+BINARY REGISTERS
+B3:0/0	Tailgate Inverse
+B3:0/1	Counter Reset
+B3:0/2	Override Mode
+B3:0/3	Auto Override Enabled
+
+TIMERS
+T4:0	Hammer Delay
+T4:1	Knife Delay
+T4:2	Knife Time
+T4:3	Lift Time
+T4:4	Gate Open Delay
+T4:5	Override Hold Time
+T4:6	Auto-Override Wait Time
+T4:7	Gate Close Delay
+
+COUNTERS
+C5:0	Day Counter
+C5:1	Life Counter (High)
+C5:2	Life Counter (Low)
+C5:3	Trigger 1 Counter
+C5:4	Trigger 2 Counter
+C5:5	Lift Counter
+C5:6	Belly Counter

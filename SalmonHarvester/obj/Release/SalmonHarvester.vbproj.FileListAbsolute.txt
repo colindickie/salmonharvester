@@ -1,0 +1,256 @@
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\bin\Release\SalmonHarvester.exe.config
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\bin\Release\SalmonHarvester.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\bin\Release\SalmonHarvester.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\bin\Release\SalmonHarvester.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\bin\Release\AdvancedHMIDrivers.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\bin\Release\MfgControl.AdvancedHMI.Controls.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\bin\Release\MfgControl.AdvancedHMI.Drivers.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\bin\Release\AdvancedHMIDrivers.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\bin\Release\AdvancedHMIDrivers.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\obj\Release\SalmonHarvester.vbprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.MainForm.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.Resources.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ThreeButtons.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.SecondScreen.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewClient.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.HarvestReport.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewPort.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewRep.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewSite.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewSkipper.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewVessel.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\obj\Release\SalmonHarvester.vbproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\obj\Release\SalmonHarvester.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\obj\Release\SalmonHarvester.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\obj\Release\SalmonHarvester.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\bin\Release\SalmonHarvester.exe.manifest
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\bin\Release\SalmonHarvester.application
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\obj\Release\SalmonHarvester.exe.manifest
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3\SalmonHarvester\obj\Release\SalmonHarvester.application
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\bin\Release\SalmonHarvester.exe.config
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\obj\Release\SalmonHarvester.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\obj\Release\SalmonHarvester.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\obj\Release\SalmonHarvester.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\bin\Release\SalmonHarvester.exe.manifest
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\bin\Release\SalmonHarvester.application
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\bin\Release\SalmonHarvester.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\bin\Release\SalmonHarvester.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\bin\Release\SalmonHarvester.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\bin\Release\AdvancedHMIDrivers.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\bin\Release\MfgControl.AdvancedHMI.Controls.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\bin\Release\MfgControl.AdvancedHMI.Drivers.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\bin\Release\AdvancedHMIDrivers.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\bin\Release\AdvancedHMIDrivers.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\obj\Release\SalmonHarvester.vbprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.MainForm.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.Resources.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ThreeButtons.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.SecondScreen.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewClient.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.HarvestReport.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewPort.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewRep.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewSite.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewSkipper.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewVessel.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\obj\Release\SalmonHarvester.vbproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\obj\Release\SalmonHarvester.exe.manifest
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.2\SalmonHarvester\obj\Release\SalmonHarvester.application
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\bin\Release\SalmonHarvester.exe.config
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\obj\Release\SalmonHarvester.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\obj\Release\SalmonHarvester.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\obj\Release\SalmonHarvester.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\bin\Release\SalmonHarvester.exe.manifest
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\bin\Release\SalmonHarvester.application
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\bin\Release\SalmonHarvester.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\bin\Release\SalmonHarvester.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\bin\Release\SalmonHarvester.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\bin\Release\AdvancedHMIDrivers.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\bin\Release\MfgControl.AdvancedHMI.Controls.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\bin\Release\MfgControl.AdvancedHMI.Drivers.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\bin\Release\AdvancedHMIDrivers.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\bin\Release\AdvancedHMIDrivers.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\obj\Release\SalmonHarvester.vbprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.MainForm.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.Resources.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ThreeButtons.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.SecondScreen.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewClient.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.HarvestReport.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewPort.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewRep.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewSite.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewSkipper.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewVessel.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\obj\Release\SalmonHarvester.vbproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\obj\Release\SalmonHarvester.exe.manifest
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.3\SalmonHarvester\obj\Release\SalmonHarvester.application
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\bin\Release\support\MfgControl.AdvancedHMI.Controls.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\bin\Release\SalmonHarvester.exe.config
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\bin\Release\SalmonHarvester.exe.manifest
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\bin\Release\SalmonHarvester.application
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\bin\Release\SalmonHarvester.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\bin\Release\SalmonHarvester.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\bin\Release\SalmonHarvester.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\bin\Release\AdvancedHMIDrivers.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\bin\Release\MfgControl.AdvancedHMI.Controls.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\bin\Release\MfgControl.AdvancedHMI.Drivers.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\bin\Release\AdvancedHMIDrivers.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\bin\Release\AdvancedHMIDrivers.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\obj\Release\SalmonHarvester.vbprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.MainForm.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.Resources.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ThreeButtons.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.SecondScreen.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewClient.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.HarvestReport.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewPort.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewRep.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewSite.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewSkipper.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewVessel.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.SplashScreen.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\obj\Release\SalmonHarvester.vbproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\obj\Release\SalmonHarvester.exe.manifest
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\obj\Release\SalmonHarvester.application
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\obj\Release\SalmonHarvester.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\obj\Release\SalmonHarvester.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.4\SalmonHarvester\obj\Release\SalmonHarvester.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\bin\Release\support\MfgControl.AdvancedHMI.Controls.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\bin\Release\SalmonHarvester.exe.config
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\bin\Release\SalmonHarvester.exe.manifest
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\bin\Release\SalmonHarvester.application
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\bin\Release\SalmonHarvester.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\bin\Release\SalmonHarvester.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\bin\Release\SalmonHarvester.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\bin\Release\AdvancedHMIDrivers.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\bin\Release\MfgControl.AdvancedHMI.Controls.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\bin\Release\MfgControl.AdvancedHMI.Drivers.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\bin\Release\AdvancedHMIDrivers.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\bin\Release\AdvancedHMIDrivers.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\obj\Release\SalmonHarvester.vbprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.MainForm.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.Resources.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ThreeButtons.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.SecondScreen.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewClient.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.HarvestReport.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewPort.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewRep.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewSite.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewSkipper.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewVessel.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.SplashScreen.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\obj\Release\SalmonHarvester.vbproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\obj\Release\SalmonHarvester.exe.manifest
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\obj\Release\SalmonHarvester.application
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\obj\Release\SalmonHarvester.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\obj\Release\SalmonHarvester.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.5\SalmonHarvester\obj\Release\SalmonHarvester.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\bin\Release\SalmonHarvester.exe.config
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\obj\Release\SalmonHarvester.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\obj\Release\SalmonHarvester.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\obj\Release\SalmonHarvester.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\bin\Release\support\MfgControl.AdvancedHMI.Controls.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\bin\Release\SalmonHarvester.exe.manifest
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\bin\Release\SalmonHarvester.application
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\bin\Release\SalmonHarvester.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\bin\Release\SalmonHarvester.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\bin\Release\SalmonHarvester.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\bin\Release\AdvancedHMIDrivers.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\bin\Release\MfgControl.AdvancedHMI.Controls.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\bin\Release\MfgControl.AdvancedHMI.Drivers.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\bin\Release\AdvancedHMIDrivers.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\bin\Release\AdvancedHMIDrivers.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\obj\Release\SalmonHarvester.vbprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.MainForm.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.Resources.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ThreeButtons.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.SecondScreen.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewClient.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.HarvestReport.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewPort.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewRep.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewSite.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewSkipper.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewVessel.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.SplashScreen.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\obj\Release\SalmonHarvester.vbproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\obj\Release\SalmonHarvester.exe.manifest
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7 - Copy\SalmonHarvester\obj\Release\SalmonHarvester.application
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\bin\Release\support\MfgControl.AdvancedHMI.Controls.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\bin\Release\SalmonHarvester.exe.config
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\bin\Release\SalmonHarvester.exe.manifest
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\bin\Release\SalmonHarvester.application
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\bin\Release\SalmonHarvester.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\bin\Release\SalmonHarvester.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\bin\Release\SalmonHarvester.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\bin\Release\AdvancedHMIDrivers.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\bin\Release\MfgControl.AdvancedHMI.Controls.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\bin\Release\MfgControl.AdvancedHMI.Drivers.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\bin\Release\AdvancedHMIDrivers.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\bin\Release\AdvancedHMIDrivers.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\obj\Release\SalmonHarvester.vbprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.MainForm.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.Resources.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ThreeButtons.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.SecondScreen.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewClient.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.HarvestReport.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewPort.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewRep.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewSite.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewSkipper.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewVessel.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.SplashScreen.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\obj\Release\SalmonHarvester.vbproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\obj\Release\SalmonHarvester.exe.manifest
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\obj\Release\SalmonHarvester.application
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\obj\Release\SalmonHarvester.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\obj\Release\SalmonHarvester.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.7\SalmonHarvester\obj\Release\SalmonHarvester.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\bin\Release\SalmonHarvester.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\bin\Release\MfgControl.AdvancedHMI.Controls.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\bin\Release\MfgControl.AdvancedHMI.Drivers.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\bin\Release\support\MfgControl.AdvancedHMI.Controls.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\bin\Release\SalmonHarvester.exe.config
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\bin\Release\SalmonHarvester.exe.manifest
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\bin\Release\SalmonHarvester.application
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\bin\Release\AdvancedHMIDrivers.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\bin\Release\AdvancedHMIDrivers.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\bin\Release\AdvancedHMIDrivers.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\obj\Release\SalmonHarvester.vbprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.MainForm.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.Resources.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ThreeButtons.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.SecondScreen.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewClient.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.HarvestReport.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewPort.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewRep.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewSite.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewSkipper.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.ViewVessel.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\obj\Release\MfgControl.AdvancedHMI.SplashScreen.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\obj\Release\SalmonHarvester.vbproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\obj\Release\SalmonHarvester.exe.manifest
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\obj\Release\SalmonHarvester.application
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\obj\Release\SalmonHarvester.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\obj\Release\SalmonHarvester.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Salmon Harverster\Salmon Harvester1.0.3.8\SalmonHarvester\obj\Release\SalmonHarvester.pdb
