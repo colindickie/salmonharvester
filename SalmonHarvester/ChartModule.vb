@@ -15,6 +15,7 @@
             machineseries.Points.DataBind(GlobalVar.chartview, "Time", GlobalVar.distinctmachines(machine), Nothing)
             machineseries.ChartType = DataVisualization.Charting.SeriesChartType.Line
             machineseries.XValueType = DataVisualization.Charting.ChartValueType.Time
+            machineseries.BorderWidth = 2
             MainForm.Chart1.Series.Add(machineseries)
         Next
 

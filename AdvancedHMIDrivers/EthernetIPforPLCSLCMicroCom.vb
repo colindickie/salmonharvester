@@ -197,7 +197,7 @@ Public Class EthernetIPforPLCSLCMicroCom
     '****************************************************
     '* Wait for a response from PLC before returning
     '****************************************************
-    Dim MaxTicks As Integer = 500  '* 50 ticks per second
+    Dim MaxTicks As Integer = 85  '* 50 ticks per second
     Friend Overrides Function WaitForResponse(ByVal rTNS As Integer) As Integer
         'Responded = False
 

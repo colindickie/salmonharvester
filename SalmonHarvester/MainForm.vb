@@ -4,11 +4,15 @@ Imports System.Threading.Tasks
 Public Class MainForm
 
 
+    Public tokensource As New CancellationTokenSource
+    Public token As CancellationToken = tokensource.Token
+
+
     '*******************************************************************************
     '* Stop polling when the form is not visible in order to reduce communications
     '* Copy this section of code to every new form created
     '*******************************************************************************
-    Private Sub Form_VisibleChanged(ByVal sender As Object, ByVal e As System.EventArgs)
+    Private Sub Form_VisibleChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.VisibleChanged
         If components IsNot Nothing Then
             Dim drv As AdvancedHMIDrivers.IComComponent
             '*****************************
@@ -53,8 +57,8 @@ Public Class MainForm
         'writeLog()
 
         'unsure what these are.  Copied for form designer.
-        components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainForm))
+        'components = New System.ComponentModel.Container()
+        'Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainForm))
 
         For machine = 0 To My.Settings.NoMachines - 1
             GlobalVar.plc(machine) = New AdvancedHMIDrivers.EthernetIPforPLCSLCMicroCom
@@ -92,6 +96,7 @@ Public Class MainForm
             mcounter(machine).Font = New System.Drawing.Font("Digital-7 Mono", counterfontsize)
             mcounter(machine).Width = counterwidth
             mcounter(machine).Height = counterheight
+            mcounter(machine).PollRate = 10000
             Me.TabMain.Controls.Add(mcounter(machine))
 
             AddHandler mcounter(machine).ValueChanged, AddressOf updatetotal
@@ -132,28 +137,62 @@ Public Class MainForm
             SecondScreen.LabelSecondTotal.Font = New System.Drawing.Font("Digital-7 Mono", Convert.ToInt32((SecondScreen.Width - 150) / 4))
 
         End If
+
+
+        Dim updatetask As Task
+        updatetask = Task.Factory.StartNew(Sub() updatecounters(token), token)
+        'updatetask.Start()
+
     End Sub
+
+    Sub updatecounters(cancel As CancellationToken)
+        Dim machinesupdated As Integer = 0
+        Dim updated As Boolean
+        Me.SetText(TBmain, "Connecting....")
+
+        For machine = 0 To My.Settings.NoMachines - 1
+            If cancel.IsCancellationRequested Then Exit For
+            updated = True
+            Try
+                Me.SetText(TabMain.Controls("Counter" & machine.ToString), "")
+                Me.SetText(TabMain.Controls("Counter" & machine.ToString), Convert.ToString(GlobalVar.plc(machine).Read("C5:0", 3)(2)))
+            Catch
+                updated = False
+                Me.SetText(TabMain.Controls("Counter" & machine.ToString), "----")
+            End Try
+            If Not updated Then machinesupdated = machinesupdated + 1
+        Next
+        If Not cancel.IsCancellationRequested Then
+            If machinesupdated > 0 Then
+                Me.SetText(TBmain, "Could not connect to " & machinesupdated & " machines!")
+            Else
+                Me.SetText(TBmain, "Connected")
+            End If
+        End If
+    End Sub
+
 
     Sub tabchanged() Handles TabControl1.SelectedIndexChanged
         Select Case TabControl1.SelectedIndex
             Case 0 'main tab
 
-                'Parallel.For(0, My.Settings.NoMachines, Sub(machine As Int32)
-                'Try
-                'Me.SetText(TabMain.Controls("Counter" & machine.ToString), Convert.ToString(GlobalVar.plc(machine).Read("C5:0", 3)(2)))
-                'Catch
-                'Me.SetText(TabMain.Controls("Counter" & machine.ToString), "----")
-                'End Try
-                'End Sub)
 
 
-                For machine = 0 To My.Settings.NoMachines - 1
-                    Try
-                        TabMain.Controls("Counter" & machine.ToString).Text = Convert.ToString(GlobalVar.plc(machine).Read("C5:0", 3)(2))
-                    Catch ex As Exception
-                        TabMain.Controls("Counter" & machine.ToString).Text = "----"
-                    End Try
-                Next
+                'If Not IsNothing(updatetask) Then updatetask.Wait()
+                Try
+                    tokensource.Cancel()
+                    tokensource.Dispose()
+                    tokensource = New CancellationTokenSource
+                    token = tokensource.Token
+                Catch
+                    tokensource = New CancellationTokenSource
+                    token = tokensource.Token
+                End Try
+
+                Dim updatetask As Task
+                updatetask = Task.Factory.StartNew(Sub() updatecounters(token), token)
+                'updatetask.Start()
+
 
 
             Case 1 'machine tab
@@ -176,11 +215,23 @@ Public Class MainForm
                 GBSettings.Controls.SetChildIndex(NUGateOpendelay, 6)
                 GBSettings.Controls.SetChildIndex(NUoverridewate, 7)
 
+                Try
+                    tokensource.Cancel()
+                    tokensource.Dispose()
+                    tokensource = New CancellationTokenSource
+                    token = tokensource.Token
+                Catch
+                    tokensource = New CancellationTokenSource
+                    token = tokensource.Token
+                End Try
 
-                'GlobalVar.timingdrawn = 50
-                Dim machinetask As Task
-                machinetask = New Task(AddressOf initialise_machinetab)
-                machinetask.Start()
+
+                Dim updatetask As Task
+                updatetask = Task.Factory.StartNew(Sub() initialise_machinetab(token), token)
+
+                'Dim machinetask As Task
+                'machinetask = New Task(AddressOf initialise_machinetab)
+                'machinetask.Start()
 
                 Dim toolTip1 As New ToolTip()
 
@@ -203,17 +254,60 @@ Public Class MainForm
                 'machinetask.Wait()
                 'LabMachine.Text = My.Settings.VesselName & " #" & (GlobalVar.currentmachine + 1).ToString
                 machine_show()
+
             Case 2 'log tab
+
+                Try
+                    tokensource.Cancel()
+                    tokensource.Dispose()
+                    tokensource = New CancellationTokenSource
+                    token = tokensource.Token
+                Catch
+                    tokensource = New CancellationTokenSource
+                    token = tokensource.Token
+                End Try
+
                 DateTimePickerLog.Value = Date.Now
+
             Case 3 'chart tab
+
+                Try
+                    tokensource.Cancel()
+                    tokensource.Dispose()
+                    tokensource = New CancellationTokenSource
+                    token = tokensource.Token
+                Catch
+                    tokensource = New CancellationTokenSource
+                    token = tokensource.Token
+                End Try
+
                 GlobalVar.chartloaded = False
                 loadchartdata()
                 drawchart()
 
             Case 4 'report tab
 
+                Try
+                    tokensource.Cancel()
+                    tokensource.Dispose()
+                    tokensource = New CancellationTokenSource
+                    token = tokensource.Token
+                Catch
+                    tokensource = New CancellationTokenSource
+                    token = tokensource.Token
+                End Try
 
             Case 5 'settings tab
+
+                Try
+                    tokensource.Cancel()
+                    tokensource.Dispose()
+                    tokensource = New CancellationTokenSource
+                    token = tokensource.Token
+                Catch
+                    tokensource = New CancellationTokenSource
+                    token = tokensource.Token
+                End Try
 
                 TBVessel.Text = My.Settings.VesselName
                 TBNoMachines.Text = My.Settings.NoMachines.ToString
@@ -234,6 +328,17 @@ Public Class MainForm
 
 
             Case 6 'help tab
+
+                Try
+                    tokensource.Cancel()
+                    tokensource.Dispose()
+                    tokensource = New CancellationTokenSource
+                    token = tokensource.Token
+                Catch
+                    tokensource = New CancellationTokenSource
+                    token = tokensource.Token
+                End Try
+
                 LbHelpVersion.Text = GlobalVar.version
         End Select
 
@@ -242,13 +347,25 @@ Public Class MainForm
     Private Sub ShBResetAll_Down(sender As Object, e As EventArgs) Handles ShBResetAll.MouseDown
         Dim machine As Integer
         For machine = 0 To My.Settings.NoMachines - 1
-            GlobalVar.plc(machine).Write("B3:0/1", 1)
+            Try
+                GlobalVar.plc(machine).Write("B3:0/1", 1)
+            Catch
+                'MsgBox("Not Connected to machine: " & My.Settings.VesselName & "#" & machine + 1)
+                Exit For
+            End Try
+
         Next
     End Sub
     Private Sub ShBResetAll_Up(sender As Object, e As EventArgs) Handles ShBResetAll.MouseUp
         Dim machine As Integer
         For machine = 0 To My.Settings.NoMachines - 1
-            GlobalVar.plc(machine).Write("B3:0/1", 0)
+            Try
+                GlobalVar.plc(machine).Write("B3:0/1", 0)
+            Catch
+                'MsgBox("Not Connected to machine: " & My.Settings.VesselName & "#" & machine + 1)
+                Exit For
+            End Try
+
         Next
     End Sub
 
@@ -277,6 +394,17 @@ Public Class MainForm
             nud.Enabled = enabled
         End If
     End Sub
+
+    Delegate Sub SetButtonEnabledCallback(_nud As SHButton, enabled As Boolean)
+    Private Sub SetEnabled(nud As SHButton, ByVal enabled As Boolean)
+        If nud.InvokeRequired Then
+            Dim d As New SetButtonEnabledCallback(AddressOf SetEnabled)
+            Me.Invoke(d, New Object() {nud, enabled})
+        Else
+            nud.Enabled = enabled
+        End If
+    End Sub
+
 
     Delegate Sub SetColourCallback(_nud As Control, newcolour As Color)
     Private Sub SetColour(nud As Control, ByVal newcolour As Color)
@@ -310,9 +438,9 @@ Public Class MainForm
 
 
 
-    Sub initialise_machinetab() 'Handles TabMachine.Paint
+    Sub initialise_machinetab(cancel As CancellationToken) 'Handles TabMachine.Paint
 
-        Me.SetText(LabMachine, "Connecting....")
+        Me.SetText(LabMachine, "Connecting to " & My.Settings.VesselName & " #" & GlobalVar.currentmachine + 1 & ".....")
         'AddHandler CounterMachineLifeL.ValueChanged, AddressOf updatelifecounter
         'AddHandler CounterMachineLifeH.ValueChanged, AddressOf updatelifecounter
 
@@ -332,12 +460,13 @@ Public Class MainForm
         Me.SetValue(NUoverridewate, My.Settings.OverrideWait)
         Me.SetEnabled(NUoverridewate, My.Settings.AutoOverride)
         Me.SetChecked(CBMachineAutoOverride, My.Settings.AutoOverride)
-
+        Me.SetEnabled(ShBReset, False)
 
 
         'Cycle through each NU control and attempt to set its value from the PLC
         'see above for setting the order of the controls
         For Each c As Control In GBSettings.Controls
+            If cancel.IsCancellationRequested Then GoTo end_machine_initialisation
             If TypeOf c Is NumericUpDown Then
                 Dim nu As NumericUpDown = DirectCast(c, NumericUpDown)
                 Try
@@ -353,7 +482,7 @@ Public Class MainForm
             End If
         Next
 
-
+        If cancel.IsCancellationRequested Then GoTo end_machine_initialisation
         'Attempt to read AutoOverride state from PLC
         Try
             dataaddress = mladdress.autooverride.address
@@ -364,7 +493,7 @@ Public Class MainForm
             Me.SetEnabled(NUoverridewate, My.Settings.AutoOverride)
         End Try
 
-
+        If cancel.IsCancellationRequested Then GoTo end_machine_initialisation
         Try
 
             Me.SetText(CounterMachineDay, GlobalVar.plc(machine).Read("C5:0", 3)(2))
@@ -377,23 +506,28 @@ Public Class MainForm
 
             ShBReset.CommComponent = GlobalVar.plc(GlobalVar.currentmachine)
 
-
+            Me.SetText(LabMachine, My.Settings.VesselName & " #" & (GlobalVar.currentmachine + 1).ToString & " connected")
+            Me.SetEnabled(ShBReset, True)
         Catch ex As Exception
-            'if communication with PLC fails then use default settings to draw diagram
+            'if communication with PLC fails then greyout counters and display message
 
-            Me.SetText(CounterMachineDay, GlobalVar.plc(machine).Read("C5:0", 3)(2))
-            Me.SetText(CounterMachineLifeL, GlobalVar.plc(machine).Read("C5:1", 3)(2))
-            Me.SetText(CounterMachineLifeH, GlobalVar.plc(machine).Read("C5:2", 3)(2))
 
             Me.SetColour(CounterMachineDay, Color.Gray)
             Me.SetColour(CounterMachineLife, Color.Gray)
-            ShBReset.Enabled = True
-
+            'ShBReset.Enabled = False
+            Me.SetEnabled(ShBReset, False)
+            Me.SetText(LabMachine, "Not Connected")
         End Try
+
         Dim repeatcycletime As Integer
         draw_timing(Convert.ToInt32(NUGateCloseDelay.Value), Convert.ToInt32(NUhammerdelay.Value), Convert.ToInt32(NUknifedelay.Value), Convert.ToInt32(NUknifetime.Value), Convert.ToInt32(NUlifttime.Value), Convert.ToInt32(NUGateOpendelay.Value), repeatcycletime)
         Me.SetText(LabelRepeat, "Repeat Cycle:" & repeatcycletime.ToString & "ms Approx.")
-        Me.SetText(LabMachine, My.Settings.VesselName & " #" & (GlobalVar.currentmachine + 1).ToString)
+
+end_machine_initialisation:
+
+
+
+
     End Sub
 
     Sub updatelifecounter() '(sender As Object, e As EventArgs)
@@ -416,8 +550,8 @@ Public Class MainForm
 
         Dim repeatcycle As Integer
         draw_timing(CInt(NUGateCloseDelay.Value), CInt(NUhammerdelay.Value), CInt(NUknifedelay.Value), CInt(NUknifetime.Value), CInt(NUlifttime.Value), CInt(NUGateOpendelay.Value), repeatcycle)
-        LabelRepeat.Text = "Repeat Cycle:" & repeatcycle.ToString("0") & "ms Approx."
-
+        'LabelRepeat.Text = "Repeat Cycle:" & repeatcycle.ToString("0") & "ms Approx."
+        Me.SetText(LabelRepeat, "Repeat Cycle:" & repeatcycle.ToString("0") & "ms Approx.")
 
     End Sub
 
@@ -425,9 +559,10 @@ Public Class MainForm
 
 
         Dim repeatcycle As Integer
-        draw_timing(CInt(NUGateCloseDelay.Value), CInt(NUhammerdelay.Value), CInt(NUknifedelay.Value), CInt(NUknifetime.Value), CInt(NUlifttime.Value), CInt(NUGateOpendelay.Value), repeatcycle)
-        LabelRepeat.Text = "Repeat Cycle:" & repeatcycle.ToString("0") & "ms Approx."
 
+        draw_timing(CInt(NUGateCloseDelay.Value), CInt(NUhammerdelay.Value), CInt(NUknifedelay.Value), CInt(NUknifetime.Value), CInt(NUlifttime.Value), CInt(NUGateOpendelay.Value), repeatcycle)
+        'LabelRepeat.Text = "Repeat Cycle:" & repeatcycle.ToString("0") & "ms Approx."
+        Me.SetText(LabelRepeat, "Repeat Cycle:" & repeatcycle.ToString("0") & "ms Approx.")
 
         ShBReset.Refresh()
         'ShBTailtrigger.Refresh()
@@ -440,11 +575,17 @@ Public Class MainForm
 
     Private Sub ButPrev_Click(sender As Object, e As EventArgs) Handles ButPrev.Click
 
+        tokensource.Cancel()
+        tokensource.Dispose()
+        tokensource = New CancellationTokenSource
+        token = tokensource.Token
 
+        Dim updatetask As Task
+        updatetask = Task.Factory.StartNew(Sub() initialise_machinetab(token), token)
 
-        Dim machinetask As Task
-        machinetask = New Task(AddressOf initialise_machinetab)
-        machinetask.Start()
+        'Dim machinetask As Task
+        'machinetask = New Task(AddressOf initialise_machinetab)
+        'machinetask.Start()
 
         GlobalVar.currentmachine = GlobalVar.currentmachine - 1
         If GlobalVar.currentmachine < 0 Then
@@ -460,10 +601,17 @@ Public Class MainForm
 
     Private Sub ButNext_Click(sender As Object, e As EventArgs) Handles ButNext.Click
 
+        tokensource.Cancel()
+        tokensource.Dispose()
+        tokensource = New CancellationTokenSource
+        token = tokensource.Token
 
-        Dim machinetask As Task
-        machinetask = New Task(AddressOf initialise_machinetab)
-        machinetask.Start()
+        Dim updatetask As Task
+        updatetask = Task.Factory.StartNew(Sub() initialise_machinetab(token), token)
+
+        'Dim machinetask As Task
+        'machinetask = New Task(AddressOf initialise_machinetab)
+        'machinetask.Start()
 
         GlobalVar.currentmachine = GlobalVar.currentmachine + 1
         If GlobalVar.currentmachine >= My.Settings.NoMachines Then
@@ -696,9 +844,15 @@ Public Class MainForm
         logtask = New Task(AddressOf readplcvalues)
         logtask.Start()
 
-
+        logtask.Wait()
     End Sub
 
+    Private Sub ShBResetAll_Up(sender As Object, e As MouseEventArgs) Handles ShBResetAll.MouseUp
+
+    End Sub
+    Private Sub ShBResetAll_Down(sender As Object, e As MouseEventArgs) Handles ShBResetAll.MouseDown
+
+    End Sub
 End Class
 
 

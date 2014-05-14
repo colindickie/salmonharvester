@@ -69,7 +69,7 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Resources\icon.ico</ApplicationIcon>
+    <ApplicationIcon>Johnson_Marine_256.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>9131FC306C276788DF9DBD20F59FC3F9426AED80</ManifestCertificateThumbprint>
@@ -386,6 +386,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Documents\plcAddresses.txt" />
+    <Content Include="Johnson_Marine_256.ico" />
+    <Content Include="Johnson_Marine_wide.ico" />
+    <None Include="Resources\Johnson_Marine_wide.png" />
+    <None Include="Resources\logo_wide.bmp" />
     <None Include="Resources\icon.ico" />
     <None Include="Resources\Johnson_Marine.png" />
     <None Include="support\MfgControl.AdvancedHMI.Controls.dll">

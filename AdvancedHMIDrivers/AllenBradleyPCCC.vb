@@ -395,7 +395,7 @@ Public MustInherit Class AllenBradleyPCCC
                         SynchronizingObject.BeginInvoke(SubscriptionList(i).dlgCallBack, z)
                         '* Slow down the poll rate to avoid app freezing
                         If SavedPollRate = 0 Then SavedPollRate = SubscriptionPollTimer.Interval
-                        SubscriptionPollTimer.Interval = 15000
+                        SubscriptionPollTimer.Interval = 15000 '15000
                         SubscriptionPollTimer.Enabled = True
                         'Me.AsyncMode = tmp
                         Exit Sub
@@ -417,7 +417,11 @@ Public MustInherit Class AllenBradleyPCCC
     ''' </summary>
     ''' <returns></returns>
     ''' <remarks></remarks>
+    ''' 
     Public Function GetProcessorType() As Integer
+        Return &H9C
+    End Function
+    Public Function GetProcessorType2() As Integer
         If m_ProcessorType <> 0 Then
             Return m_ProcessorType
         Else

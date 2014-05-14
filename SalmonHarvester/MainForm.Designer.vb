@@ -57,6 +57,7 @@ Partial Class MainForm
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainForm))
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabMain = New System.Windows.Forms.TabPage()
+        Me.TBmain = New System.Windows.Forms.TextBox()
         Me.ShBResetAll = New MfgControl.AdvancedHMI.SHButton()
         Me.LabelTotal = New System.Windows.Forms.Label()
         Me.TabMachine = New System.Windows.Forms.TabPage()
@@ -70,6 +71,8 @@ Partial Class MainForm
         Me.CounterMachineLife = New MfgControl.AdvancedHMI.Counter()
         Me.CounterMachineDay = New MfgControl.AdvancedHMI.Counter()
         Me.GBSettings = New System.Windows.Forms.GroupBox()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.NUoverridewate = New System.Windows.Forms.NumericUpDown()
         Me.Label39 = New System.Windows.Forms.Label()
         Me.Label40 = New System.Windows.Forms.Label()
         Me.ButtonSaveTimings = New System.Windows.Forms.Button()
@@ -198,8 +201,6 @@ Partial Class MainForm
         Me.Label35 = New System.Windows.Forms.Label()
         Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
         Me.TimerLog = New System.Windows.Forms.Timer(Me.components)
-        Me.NUoverridewate = New System.Windows.Forms.NumericUpDown()
-        Me.Label42 = New System.Windows.Forms.Label()
         SkipperIDLabel = New System.Windows.Forms.Label()
         PortIDLabel = New System.Windows.Forms.Label()
         SkipperCommentsLabel = New System.Windows.Forms.Label()
@@ -233,6 +234,7 @@ Partial Class MainForm
         Me.TabMachine.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
         Me.GBSettings.SuspendLayout()
+        CType(Me.NUoverridewate, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NUGateCloseDelay, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NUhammerdelay, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NUknifedelay, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -260,7 +262,6 @@ Partial Class MainForm
         Me.TabSettings.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
         Me.TabHelp.SuspendLayout()
-        CType(Me.NUoverridewate, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'SkipperIDLabel
@@ -561,6 +562,7 @@ Partial Class MainForm
         '
         'TabMain
         '
+        Me.TabMain.Controls.Add(Me.TBmain)
         Me.TabMain.Controls.Add(Me.ShBResetAll)
         Me.TabMain.Controls.Add(Me.LabelTotal)
         Me.TabMain.Location = New System.Drawing.Point(4, 22)
@@ -570,6 +572,15 @@ Partial Class MainForm
         Me.TabMain.TabIndex = 0
         Me.TabMain.Text = "Main"
         Me.TabMain.UseVisualStyleBackColor = True
+        '
+        'TBmain
+        '
+        Me.TBmain.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TBmain.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TBmain.Location = New System.Drawing.Point(633, 50)
+        Me.TBmain.Name = "TBmain"
+        Me.TBmain.Size = New System.Drawing.Size(390, 23)
+        Me.TBmain.TabIndex = 51
         '
         'ShBResetAll
         '
@@ -847,6 +858,25 @@ Partial Class MainForm
         Me.GBSettings.TabStop = False
         Me.GBSettings.Text = "Settings"
         '
+        'Label42
+        '
+        Me.Label42.AutoSize = True
+        Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.Label42.Location = New System.Drawing.Point(228, 197)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(28, 17)
+        Me.Label42.TabIndex = 31
+        Me.Label42.Text = "ms"
+        '
+        'NUoverridewate
+        '
+        Me.NUoverridewate.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.NUoverridewate.Location = New System.Drawing.Point(162, 195)
+        Me.NUoverridewate.Maximum = New Decimal(New Integer() {5000, 0, 0, 0})
+        Me.NUoverridewate.Name = "NUoverridewate"
+        Me.NUoverridewate.Size = New System.Drawing.Size(60, 23)
+        Me.NUoverridewate.TabIndex = 30
+        '
         'Label39
         '
         Me.Label39.AutoSize = True
@@ -980,7 +1010,7 @@ Partial Class MainForm
         '
         Me.NUGateCloseDelay.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold)
         Me.NUGateCloseDelay.Location = New System.Drawing.Point(162, 22)
-        Me.NUGateCloseDelay.Maximum = New Decimal(New Integer() {1000, 0, 0, 0})
+        Me.NUGateCloseDelay.Maximum = New Decimal(New Integer() {5000, 0, 0, 0})
         Me.NUGateCloseDelay.Name = "NUGateCloseDelay"
         Me.NUGateCloseDelay.Size = New System.Drawing.Size(60, 23)
         Me.NUGateCloseDelay.TabIndex = 29
@@ -989,7 +1019,7 @@ Partial Class MainForm
         '
         Me.NUhammerdelay.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold)
         Me.NUhammerdelay.Location = New System.Drawing.Point(162, 51)
-        Me.NUhammerdelay.Maximum = New Decimal(New Integer() {1000, 0, 0, 0})
+        Me.NUhammerdelay.Maximum = New Decimal(New Integer() {5000, 0, 0, 0})
         Me.NUhammerdelay.Name = "NUhammerdelay"
         Me.NUhammerdelay.Size = New System.Drawing.Size(60, 23)
         Me.NUhammerdelay.TabIndex = 20
@@ -998,7 +1028,7 @@ Partial Class MainForm
         '
         Me.NUknifedelay.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold)
         Me.NUknifedelay.Location = New System.Drawing.Point(162, 80)
-        Me.NUknifedelay.Maximum = New Decimal(New Integer() {1000, 0, 0, 0})
+        Me.NUknifedelay.Maximum = New Decimal(New Integer() {5000, 0, 0, 0})
         Me.NUknifedelay.Name = "NUknifedelay"
         Me.NUknifedelay.Size = New System.Drawing.Size(60, 23)
         Me.NUknifedelay.TabIndex = 21
@@ -1007,7 +1037,7 @@ Partial Class MainForm
         '
         Me.NUknifetime.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold)
         Me.NUknifetime.Location = New System.Drawing.Point(162, 109)
-        Me.NUknifetime.Maximum = New Decimal(New Integer() {1000, 0, 0, 0})
+        Me.NUknifetime.Maximum = New Decimal(New Integer() {5000, 0, 0, 0})
         Me.NUknifetime.Name = "NUknifetime"
         Me.NUknifetime.Size = New System.Drawing.Size(60, 23)
         Me.NUknifetime.TabIndex = 22
@@ -1016,7 +1046,7 @@ Partial Class MainForm
         '
         Me.NUlifttime.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold)
         Me.NUlifttime.Location = New System.Drawing.Point(162, 138)
-        Me.NUlifttime.Maximum = New Decimal(New Integer() {1000, 0, 0, 0})
+        Me.NUlifttime.Maximum = New Decimal(New Integer() {5000, 0, 0, 0})
         Me.NUlifttime.Name = "NUlifttime"
         Me.NUlifttime.Size = New System.Drawing.Size(60, 23)
         Me.NUlifttime.TabIndex = 23
@@ -1025,7 +1055,7 @@ Partial Class MainForm
         '
         Me.NUGateOpendelay.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold)
         Me.NUGateOpendelay.Location = New System.Drawing.Point(162, 167)
-        Me.NUGateOpendelay.Maximum = New Decimal(New Integer() {1000, 0, 0, 0})
+        Me.NUGateOpendelay.Maximum = New Decimal(New Integer() {5000, 0, 0, 0})
         Me.NUGateOpendelay.Name = "NUGateOpendelay"
         Me.NUGateOpendelay.Size = New System.Drawing.Size(60, 23)
         Me.NUGateOpendelay.TabIndex = 24
@@ -2116,25 +2146,6 @@ Partial Class MainForm
         Me.TimerLog.Enabled = True
         Me.TimerLog.Interval = 60000
         '
-        'NUoverridewate
-        '
-        Me.NUoverridewate.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold)
-        Me.NUoverridewate.Location = New System.Drawing.Point(162, 195)
-        Me.NUoverridewate.Maximum = New Decimal(New Integer() {1000, 0, 0, 0})
-        Me.NUoverridewate.Name = "NUoverridewate"
-        Me.NUoverridewate.Size = New System.Drawing.Size(60, 23)
-        Me.NUoverridewate.TabIndex = 30
-        '
-        'Label42
-        '
-        Me.Label42.AutoSize = True
-        Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold)
-        Me.Label42.Location = New System.Drawing.Point(228, 197)
-        Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(28, 17)
-        Me.Label42.TabIndex = 31
-        Me.Label42.Text = "ms"
-        '
         'MainForm
         '
         Me.AutoScroll = True
@@ -2149,12 +2160,14 @@ Partial Class MainForm
         Me.Text = "Johnson Marine - Salmon Harvester"
         Me.TabControl1.ResumeLayout(False)
         Me.TabMain.ResumeLayout(False)
+        Me.TabMain.PerformLayout()
         Me.TabMachine.ResumeLayout(False)
         Me.TabMachine.PerformLayout()
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
         Me.GBSettings.ResumeLayout(False)
         Me.GBSettings.PerformLayout()
+        CType(Me.NUoverridewate, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NUGateCloseDelay, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NUhammerdelay, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NUknifedelay, System.ComponentModel.ISupportInitialize).EndInit()
@@ -2190,7 +2203,6 @@ Partial Class MainForm
         Me.GroupBox5.PerformLayout()
         Me.TabHelp.ResumeLayout(False)
         Me.TabHelp.PerformLayout()
-        CType(Me.NUoverridewate, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -2352,4 +2364,5 @@ Partial Class MainForm
     Friend WithEvents TBoverridewait As System.Windows.Forms.TextBox
     Friend WithEvents Label42 As System.Windows.Forms.Label
     Friend WithEvents NUoverridewate As System.Windows.Forms.NumericUpDown
+    Friend WithEvents TBmain As System.Windows.Forms.TextBox
 End Class

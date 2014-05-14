@@ -7,14 +7,14 @@
     <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="SalmonHarvester.exe.manifest" size="6996">
+    <dependentAssembly dependencyType="install" codebase="SalmonHarvester.exe.manifest" size="7389">
       <assemblyIdentity name="SalmonHarvester.exe" version="1.0.3.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>3+CsNeYuKDoPMx7yCEXwIagGxNo=</dsig:DigestValue>
+        <dsig:DigestValue>C0tkLrAv4IYTiWTFs/lJv+bQPU8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

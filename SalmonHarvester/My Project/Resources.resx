@@ -124,4 +124,7 @@
   <data name="Johnson_Marine" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Johnson_Marine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Johnson_Marine_wide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Johnson_Marine_wide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

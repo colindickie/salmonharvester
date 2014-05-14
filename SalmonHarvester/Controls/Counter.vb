@@ -609,7 +609,7 @@ Public Class Counter
             If ErrorDisplayTime Is Nothing Then
                 ErrorDisplayTime = New System.Windows.Forms.Timer
                 AddHandler ErrorDisplayTime.Tick, AddressOf ErrorDisplay_Tick
-                ErrorDisplayTime.Interval = 5000
+                ErrorDisplayTime.Interval = 500
             End If
 
             '* Save the text to return to
