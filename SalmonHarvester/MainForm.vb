@@ -119,12 +119,11 @@ Public Class MainForm
         Next machine
 
 
-        LabelTotal.Width = 247
+        LabelTotal.Width = 310
         LabelTotal.Height = 84
-        LabelTotal.Location = New System.Drawing.Point(Convert.ToInt32((Screen.PrimaryScreen.Bounds.Width - 247) / 2), 550)
-        'LabelTotal.Font = New System.Drawing.Font("Let's go Digital", 62)
+        LabelTotal.Location = New System.Drawing.Point(Convert.ToInt32((Screen.PrimaryScreen.Bounds.Width - LabelTotal.Width - 20) / 2), 550)
         LabelTotal.Font = New System.Drawing.Font("Digital-7 Mono", 62)
-        LabelTotal.Text = "0"
+        LabelTotal.Text = "000,000"
         ShBResetAll.Location = New System.Drawing.Point(Convert.ToInt32(Screen.PrimaryScreen.Bounds.Width / 2 + 150), 550 + 84 - 110)
 
         If My.Settings.SecondScreen Then
