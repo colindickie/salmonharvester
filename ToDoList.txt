@@ -13,10 +13,8 @@
 
 1. Show status of each sensor/acuator on machine tab.  Possibly by writing a new control which higlights when activated i.e. the 'tail gate' label turns red when activated.
 
-
-3. Splash Page with version number.
-
-
+2. email logfiles to server
+2.1 zip logfiles
 5. Reformat Report Printout
 
 6. Test read function with fewer request bytes.

@@ -51,9 +51,9 @@ Partial Class MainForm
         Dim Label32 As System.Windows.Forms.Label
         Dim Label33 As System.Windows.Forms.Label
         Dim Label34 As System.Windows.Forms.Label
-        Dim ChartArea1 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend1 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Title1 As System.Windows.Forms.DataVisualization.Charting.Title = New System.Windows.Forms.DataVisualization.Charting.Title()
+        Dim ChartArea2 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend2 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Title2 As System.Windows.Forms.DataVisualization.Charting.Title = New System.Windows.Forms.DataVisualization.Charting.Title()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainForm))
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabMain = New System.Windows.Forms.TabPage()
@@ -599,7 +599,7 @@ Partial Class MainForm
         'LabelTotal
         '
         Me.LabelTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.LabelTotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 62.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelTotal.Font = New System.Drawing.Font("Digital-7 Mono", 62.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelTotal.ForeColor = System.Drawing.Color.Red
         Me.LabelTotal.Location = New System.Drawing.Point(473, 562)
         Me.LabelTotal.MaximumSize = New System.Drawing.Size(250, 100)
@@ -698,7 +698,6 @@ Partial Class MainForm
         'CounterMachineLifeL
         '
         Me.CounterMachineLifeL.BackColor = System.Drawing.Color.White
-        Me.CounterMachineLifeL.BooleanDisplay = MfgControl.AdvancedHMI.Counter.BooleanDisplayOption.TrueFalse
         Me.CounterMachineLifeL.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.CounterMachineLifeL.CommComponent = Nothing
         Me.CounterMachineLifeL.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Bold)
@@ -731,7 +730,6 @@ Partial Class MainForm
         'CounterMachineLifeH
         '
         Me.CounterMachineLifeH.BackColor = System.Drawing.Color.White
-        Me.CounterMachineLifeH.BooleanDisplay = MfgControl.AdvancedHMI.Counter.BooleanDisplayOption.TrueFalse
         Me.CounterMachineLifeH.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.CounterMachineLifeH.CommComponent = Nothing
         Me.CounterMachineLifeH.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Bold)
@@ -764,7 +762,6 @@ Partial Class MainForm
         'CounterMachineLife
         '
         Me.CounterMachineLife.BackColor = System.Drawing.Color.White
-        Me.CounterMachineLife.BooleanDisplay = MfgControl.AdvancedHMI.Counter.BooleanDisplayOption.TrueFalse
         Me.CounterMachineLife.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.CounterMachineLife.CommComponent = Nothing
         Me.CounterMachineLife.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold)
@@ -797,7 +794,6 @@ Partial Class MainForm
         'CounterMachineDay
         '
         Me.CounterMachineDay.BackColor = System.Drawing.Color.White
-        Me.CounterMachineDay.BooleanDisplay = MfgControl.AdvancedHMI.Counter.BooleanDisplayOption.TrueFalse
         Me.CounterMachineDay.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.CounterMachineDay.CommComponent = Nothing
         Me.CounterMachineDay.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold)
@@ -1224,7 +1220,7 @@ Partial Class MainForm
         '
         'ButtonResetEnd
         '
-        Me.ButtonResetEnd.Location = New System.Drawing.Point(189, 96)
+        Me.ButtonResetEnd.Location = New System.Drawing.Point(189, 48)
         Me.ButtonResetEnd.Name = "ButtonResetEnd"
         Me.ButtonResetEnd.Size = New System.Drawing.Size(75, 23)
         Me.ButtonResetEnd.TabIndex = 6
@@ -1233,7 +1229,7 @@ Partial Class MainForm
         '
         'ButtonResetStart
         '
-        Me.ButtonResetStart.Location = New System.Drawing.Point(189, 69)
+        Me.ButtonResetStart.Location = New System.Drawing.Point(189, 21)
         Me.ButtonResetStart.Name = "ButtonResetStart"
         Me.ButtonResetStart.Size = New System.Drawing.Size(75, 23)
         Me.ButtonResetStart.TabIndex = 5
@@ -1245,7 +1241,7 @@ Partial Class MainForm
         Me.DateTimePickerEnd.CustomFormat = "dd/MM/yyy HH:mm"
         Me.DateTimePickerEnd.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePickerEnd.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePickerEnd.Location = New System.Drawing.Point(18, 96)
+        Me.DateTimePickerEnd.Location = New System.Drawing.Point(18, 48)
         Me.DateTimePickerEnd.Name = "DateTimePickerEnd"
         Me.DateTimePickerEnd.Size = New System.Drawing.Size(150, 20)
         Me.DateTimePickerEnd.TabIndex = 4
@@ -1255,7 +1251,7 @@ Partial Class MainForm
         Me.DateTimePickerStart.CustomFormat = "dd/MM/yyy HH:mm"
         Me.DateTimePickerStart.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePickerStart.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePickerStart.Location = New System.Drawing.Point(18, 69)
+        Me.DateTimePickerStart.Location = New System.Drawing.Point(18, 21)
         Me.DateTimePickerStart.Name = "DateTimePickerStart"
         Me.DateTimePickerStart.Size = New System.Drawing.Size(150, 20)
         Me.DateTimePickerStart.TabIndex = 3
@@ -1264,34 +1260,34 @@ Partial Class MainForm
         'DataGridViewChart
         '
         Me.DataGridViewChart.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridViewChart.Location = New System.Drawing.Point(3, 417)
+        Me.DataGridViewChart.Location = New System.Drawing.Point(3, 306)
         Me.DataGridViewChart.Name = "DataGridViewChart"
-        Me.DataGridViewChart.ScrollBars = System.Windows.Forms.ScrollBars.None
-        Me.DataGridViewChart.Size = New System.Drawing.Size(396, 234)
+        Me.DataGridViewChart.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.DataGridViewChart.Size = New System.Drawing.Size(396, 345)
         Me.DataGridViewChart.TabIndex = 2
         '
         'CheckedListBox1
         '
         Me.CheckedListBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckedListBox1.FormattingEnabled = True
-        Me.CheckedListBox1.Location = New System.Drawing.Point(18, 164)
+        Me.CheckedListBox1.Location = New System.Drawing.Point(18, 90)
         Me.CheckedListBox1.Name = "CheckedListBox1"
         Me.CheckedListBox1.Size = New System.Drawing.Size(176, 199)
         Me.CheckedListBox1.TabIndex = 1
         '
         'Chart1
         '
-        ChartArea1.Name = "Total"
-        Me.Chart1.ChartAreas.Add(ChartArea1)
-        Legend1.Name = "Legend1"
-        Me.Chart1.Legends.Add(Legend1)
+        ChartArea2.Name = "Total"
+        Me.Chart1.ChartAreas.Add(ChartArea2)
+        Legend2.Name = "Legend1"
+        Me.Chart1.Legends.Add(Legend2)
         Me.Chart1.Location = New System.Drawing.Point(405, 0)
         Me.Chart1.Name = "Chart1"
         Me.Chart1.Size = New System.Drawing.Size(829, 651)
         Me.Chart1.TabIndex = 0
         Me.Chart1.Text = "Chart1"
-        Title1.Name = "MainTitle"
-        Me.Chart1.Titles.Add(Title1)
+        Title2.Name = "MainTitle"
+        Me.Chart1.Titles.Add(Title2)
         '
         'TabPage1
         '
