@@ -1,13 +1,15 @@
 ﻿Imports System.Xml
+Imports System.IO
 
 Module XmlModule
 
     Function filestring() As String
-        Dim dateNum As Long = Date.Now.ToBinary
-        Dim dateDate As Date = Date.FromBinary(dateNum)
-        Dim timeStr As String = dateDate.ToString("HH:mm:ss")
-        Dim dateStr As String = dateDate.ToString("dd/MM/yyyy")
-        Return dateDate.ToString("yyyy-MM-dd")
+        'Dim dateNum As Long = Date.Now.ToBinary
+        'Dim dateDate As Date = Date.FromBinary(dateNum)
+        'Dim timeStr As String = dateDate.ToString("HH:mm:ss")
+        'Dim dateStr As String = dateDate.ToString("dd/MM/yyyy")
+        'Return dateDate.ToString("yyyy-MM-dd")
+        Return filestring(Date.Now)
     End Function
 
     Function filestring(indate As Date) As String
@@ -26,6 +28,37 @@ Module XmlModule
     Function logfile(indate As Date) As String
 
         Return My.Settings.LogPath & "\log\log" & My.Settings.VesselName & filestring(indate) & ".xml"
+    End Function
+
+    Function getfiledate(fulllogpath As String) As Date
+        Dim strstart As Integer = Len(My.Settings.LogPath & "\log\log" & My.Settings.VesselName) + 1
+        Dim datestr As String = Mid(fulllogpath, strstart, 10)
+        Dim filey = Convert.ToInt32(Mid(datestr, 1, 4))
+        Dim filem = Convert.ToInt32(Mid(datestr, 6, 2))
+        Dim filed = Convert.ToInt32(Mid(datestr, 9, 2))
+        Return DateSerial(filey, filem, filed)
+    End Function
+
+    Function findlatestlog(filedate As Date) As String
+        Dim attemptfile As String = logfile(filedate)
+        Dim success As Boolean = False
+        Dim attempts As Integer = 0
+
+        Do Until success Or attempts > 20
+            attemptfile = logfile(filedate)
+            If file.exists(attemptfile) Then
+                success = True
+            Else
+                filedate = DateAdd(DateInterval.Day, -1, filedate)
+                attempts += 1
+            End If
+        Loop
+        Return attemptfile
+
+    End Function
+
+    Function findlatestlog() As String
+        Return findlatestlog(Date.Now)
     End Function
 
     Public Sub writeLog(ByVal wharvesttime As String, wlog() As machinelog)

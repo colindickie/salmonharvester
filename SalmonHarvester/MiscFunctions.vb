@@ -76,10 +76,10 @@ Module MiscFunctions
 
         For machine = 0 To My.Settings.NoMachines - 1
             Try
-                GlobalVar.mlog(machine).machineid = My.Settings.VesselName & CStr(machine + 1)
+                GlobalVar.mlog(machine).machineid = My.Settings.VesselName & (machine + 1).ToString("D2")
             Catch
                 GlobalVar.mlog(machine) = New machinelog
-                GlobalVar.mlog(machine).machineid = My.Settings.VesselName & CStr(machine + 1)
+                GlobalVar.mlog(machine).machineid = My.Settings.VesselName & (machine + 1).ToString("D2")
             End Try
 
             GlobalVar.plc(machine).DisableSubscriptions = True

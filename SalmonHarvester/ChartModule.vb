@@ -85,9 +85,9 @@
         Dim newrow As DataRow
         sumdt.Columns.Add("Machine")
         sumdt.Columns.Add("Total")
-        sumdt.Columns.Add("Average")
-        sumdt.Columns.Add("Maximum")
-        sumdt.Columns("Average").DataType = GetType(Decimal)
+        sumdt.Columns.Add("Ave/min")
+        sumdt.Columns.Add("Max/min")
+        sumdt.Columns("Ave/min").DataType = GetType(Decimal)
 
         GlobalVar.chartview.RowFilter = filter
         maxrows = GlobalVar.chartview.Count
@@ -115,8 +115,8 @@
                 End If
 
                 newrow.Item("Total") = CStr(mtotals(machine))
-                newrow.Item("Average") = CStr(mtotals(machine) / (mtime.Hours * 60 + mtime.Minutes))
-                newrow.Item("Maximum") = CStr(mmax(machine))
+                newrow.Item("Ave/min") = CStr(mtotals(machine) / (mtime.Hours * 60 + mtime.Minutes))
+                newrow.Item("Max/min") = CStr(mmax(machine))
                 sumdt.Rows.Add(newrow)
             Next
 
@@ -145,7 +145,7 @@
         'Dim fileStr As String = dateDate.ToString("yyyy-MM-dd")
         'Dim filename As String = My.Settings.LogPath & "\log\log" & My.Settings.VesselName & fileStr & ".xml"
 
-        Dim filename As String = logfile(MainForm.DateTimePickerStart.Value)
+        Dim filename As String = findlatestlog(MainForm.DateTimePickerStart.Value)
 
         Dim mtime(0 To 1440) ' maximum rows 60 minutes x 24 hours
         Dim maxrows, colcount, rowcount, machine, total As Integer

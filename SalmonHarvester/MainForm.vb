@@ -123,7 +123,7 @@ Public Class MainForm
         LabelTotal.Height = 84
         LabelTotal.Location = New System.Drawing.Point(Convert.ToInt32((Screen.PrimaryScreen.Bounds.Width - LabelTotal.Width - 20) / 2), 550)
         LabelTotal.Font = New System.Drawing.Font("Digital-7 Mono", 62)
-        LabelTotal.Text = "000,000"
+        LabelTotal.Text = "0"
         ShBResetAll.Location = New System.Drawing.Point(Convert.ToInt32(Screen.PrimaryScreen.Bounds.Width / 2 + 150), 550 + 84 - 110)
 
         If My.Settings.SecondScreen Then
@@ -265,8 +265,9 @@ Public Class MainForm
                     tokensource = New CancellationTokenSource
                     token = tokensource.Token
                 End Try
-
-                DateTimePickerLog.Value = Date.Now
+                Dim latestlog As String = findlatestlog()
+                Dim latestdate As Date = getfiledate(latestlog)
+                DateTimePickerLog.Value = latestdate
 
             Case 3 'chart tab
 
@@ -281,8 +282,20 @@ Public Class MainForm
                 End Try
 
                 GlobalVar.chartloaded = False
-                loadchartdata()
-                drawchart()
+
+                Dim latestlog As String = findlatestlog()
+                Dim latestdate As Date = getfiledate(latestlog)
+
+                DateTimePickerStart.Value = DateSerial(latestdate.Year, latestdate.Month, latestdate.Day)
+                DateTimePickerEnd.Value = DateAdd(DateInterval.Second, -1, DateSerial(latestdate.Year, latestdate.Month, latestdate.Day + 1))
+
+                Try
+                    loadchartdata()
+                    drawchart()
+                Catch ex As Exception
+                    MsgBox(ex.Message)
+                End Try
+
 
             Case 4 'report tab
 
